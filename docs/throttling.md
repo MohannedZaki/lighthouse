@@ -1,13 +1,13 @@
 
-## The 3G network throttling preset
+## The network throttling preset
 
-This is the standard recommendation for 3G throttling:
+This is the standard recommendation for Slow 4G throttling:
 
 - Latency: 150ms
 - Throughput: 1.6Mbps down / 750 Kbps up.
 - Packet loss: none.
 
-These exact figures are used as the [WebPageTest "Mobile 3G - Fast" preset](https://github.com/WPO-Foundation/webpagetest/blob/master/www/settings/connectivity.ini.sample) and [Lighthouse's throttling default](https://github.com/GoogleChrome/lighthouse/blob/8f500e00243e07ef0a80b39334bedcc8ddc8d3d0/lighthouse-core/config/constants.js#L19-L26).
+These exact figures are used as the [WebPageTest "Mobile 3G - Fast" preset](https://github.com/WPO-Foundation/webpagetest/blob/master/www/settings/connectivity.ini.sample) and [Lighthouse's throttling default](https://github.com/GoogleChrome/lighthouse/blob/8f500e00243e07ef0a80b39334bedcc8ddc8d3d0/lighthouse-core/config/constants.js#L19-L26). These values represent roughly the bottom 25% of 4G connections and top 25% of 3G connections.
 
 ## Throttling basics
 
